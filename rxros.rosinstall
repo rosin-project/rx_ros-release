@@ -1,0 +1,3 @@
+- git:
+    uri: https://github.com/rosin-project/rxros.git
+    local-name: rxros
