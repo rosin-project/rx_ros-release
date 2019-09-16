@@ -1,0 +1,12 @@
+Source: ros-melodic-rxros-tf
+Section: misc
+Priority: extra
+Maintainer: Andrzej Wasowski <wasowski@itu.dk>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-rxros, ros-melodic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rxros-tf
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-rxros, ros-melodic-tf
+Description: Extensions to RxROS for working with TF.
